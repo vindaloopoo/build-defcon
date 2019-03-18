@@ -1,0 +1,30 @@
+{
+  "name": "build-defcon-",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "^10"
+  },
+  "dependencies": {
+    "node-hid": "^0.7.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-kingsquare": "^5.0.5",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4"
+  },
+  "eslintConfig": {
+    "extends": "kingsquare",
+    "rules": {
+      "no-var": "error",
+      "prefer-const": "error",
+      "prefer-template": "error",
+      "arrow-body-style": "error"
+    }
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
